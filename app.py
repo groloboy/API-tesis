@@ -7,7 +7,7 @@ import pandas as pd
 import base64
 import flask
 
-model = load_model('model/binary_class_model_64.h5', compile = True)
+model = load_model('model/binary_class_model.h5', compile = True)
 
 app = flask.Flask(__name__)
 
